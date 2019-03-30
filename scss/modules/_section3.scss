@@ -3,6 +3,8 @@
 	background-size: cover;
 
 	&__text {
+		padding-top: 50px;
+		padding-left: 30px;
 		margin-top: 230px;
 		margin-bottom: 100px;
 		background: rgba(0, 0, 0, .5);
@@ -28,7 +30,7 @@
 
 	&__desc { 
 		font: 16px/1.4 $josefin;
-		margin-bottom: 45px;
+		padding-bottom: 45px;
 
 	 }
 
