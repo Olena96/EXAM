@@ -1,0 +1,55 @@
+// @include font-face('aleo', 'fonts/aleo/aleo-regular'); 
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+html {
+	height: 100%;
+}
+
+body, html {
+	min-height: 100%;
+	width: 100%;
+}
+
+.clear::after, .clear::before {
+	content: " ";
+	display: table;
+}
+
+.clear::after {
+	clear: both;
+}
+
+
+
+.container { 
+	margin: 0 auto;
+	padding: 0 15px;
+	max-width: 1140px;
+	width: 100%;
+	color: white;
+}
+
+
+	.button { 
+	 }
+	 .link { 
+	 	padding: 24px 40px;
+	 	background: $blue;
+	 	text-decoration: none;
+	 	text-transform: uppercase;
+	 	color: #fff;
+	 	display: inline-block;
+
+	  }

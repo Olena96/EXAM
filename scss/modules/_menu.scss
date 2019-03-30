@@ -1,0 +1,47 @@
+.menu { 
+	background: $blue;
+
+
+	&__link {
+	text-decoration: none; 
+	 }
+
+	 &__logo { 
+	 	font: 24px $josefin;
+	 	text-transform: uppercase;
+	 	letter-spacing: 1px;
+	 	color: #fff;
+
+
+	  }
+ }
+
+ .nav { 
+ 	display: flex;
+ 	justify-content: space-between;
+ 	width: 46%;
+
+ 	&__items { 
+ 		font: 14px/1.8 $aleo;
+ 		text-transform: uppercase;
+
+ 	 }
+
+ 	 &__link { 
+ 	 text-decoration: none;
+ 	 color: #fff; }
+  }
+
+  .container--menu { 
+  		display: flex;
+	justify-content: space-between;
+	align-items: center;
+		padding: 30px 15px;
+
+   }
+
+
+
+
+
+ 
