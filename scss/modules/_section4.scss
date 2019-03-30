@@ -1,1 +1,40 @@
+.mountains { 
+	background: url('../images/spain-2.jpg') no-repeat top center;
+	background-size: cover;
+
+	&__text {
+		padding-top: 50px;
+		padding-left: 30px;
+		margin-top: 230px;
+		margin-bottom: 100px;
+		background: rgba(0, 0, 0, .5);
+		padding-bottom: 50px;
+
+
+	}
+
+	&__intro {
+		font: 20px/1.4 $josefin;
+		padding-bottom: 30px;
+
+	}
+
+	&__title  {
+		font: 20px/1.4 $josefin;
+		text-transform: uppercase;
+		padding-bottom: 30px;
+
+
+	}
+
+
+	&__desc { 
+		font: 16px/1.4 $josefin;
+		padding-bottom: 45px;
+
+	 }
+
+ }
+
+.container--houses { }
 
